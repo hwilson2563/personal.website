@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/about.css">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheets/mainstyle.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<title></title>
+</head>
+<body>
+<nav>
+	<div class="name">Hilary Claire Wilson</div>
+	<i class="material-icons" id="menuBar">menu</i>
+	<i class="material-icons" id="close">&#xE5CD;</i>
+	<ul id="guide">
+		<li><a href="#!/about">About</a></li>
+		<li>Portfolio</li>
+		<li>Skills</li>
+		<li>Contact</li>
+	</ul>
+</nav>
+
+<ng-view></ng-view>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script> 
+ <script src="script/module.js"></script>
+ <script src="script/config.js"></script>
+ <script src="script/maincomponent.js"></script>
+ <script src="script/aboutcomponent.js"></script>
+ <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.title {
+text-align: center;
+}
+#welcomeMessage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#main {
+	font-family: "Poiret One";
+	font-size: 40px;
+	color: #F6F5F3;
+}
+#small {
+	font-family: "Homemade Apple";
+	color: #576886;
+}

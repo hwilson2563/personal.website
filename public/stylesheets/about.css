@@ -1,0 +1,147 @@
+img {
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 10px;
+}
+#imageContainer {
+	width: 100%;
+	z-index: -1;
+}
+.about {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+#textContainer {
+	z-index: 3;
+	margin-top: -110px;
+	margin-left: 10px;
+}
+#textContainer h2{
+	font-family: "Poiret One";
+	color: #F6F5F3;
+	font-size: 30px;
+	margin-bottom: -20px;
+}
+#textContainer h3 {
+	font-size: 14px;
+}
+p {
+	text-align: center;
+	color: #F6F5F3;
+	font-family: 'Poiret One';
+}
+#work {
+	padding: 20px;
+	margin: 0;
+	display: inline-block;
+}
+h3 {
+	display: inline-block;
+	margin: 0;
+	font-family: "Homemade Apple";
+	color: #D5E1EF;
+	font-size: 24px;
+}
+.schools {
+	display: flex;
+	justify-content: center;
+	color: #F6F5F3;
+	font-family: 'Poiret One';
+	margin: -10px;
+	text-align: center;
+}
+.schools p {
+	font-size: 14px;
+}
+.schools div {
+	background-color: rgba(87, 104, 134, .3);
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 10px;
+}
+progress {
+  width: 60%;
+  -webkit-appearance: none;
+  border: none;
+  height: 18px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+}
+progress::-webkit-progress-bar {
+  background: #ccc;
+  box-shadow: inset 0px 0px 10px 5px #aaa;
+  border-radius: 20px;
+}
+progress::-webkit-progress-value {
+  background-color: #D5E1EF;
+  border-radius: 20px;
+}
+.skillTypes div {
+	display:flex;
+	justify-content: space-between;
+	width: 80%;
+}
+.skillTypes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.goals {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.goal{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: rgba(34,42,63,.5);
+	text-align: center;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+}
+.goal:hover, .goal:active {
+	background-color:rgba(34,42,63,1);
+	z-index: 8; 
+}
+.goal:hover p, .goal:active p{
+	visibility: visible;
+}
+.goal:hover img, .goal:active img{
+	visibility: hidden;
+}
+#one {
+	
+}
+#one img {
+	height: 55%;
+	padding-top: 30px;
+}
+#two {
+	
+}
+#two img {
+	height: 50%;
+	padding-top: 30px;
+}
+#three {
+	
+}
+#three img {
+	height: 50%;
+	padding-top: 30px;
+}
+.goal p {
+	position: absolute;
+	font-family: "Poiret One";
+	color: #D5E1EF;
+	visibility: hidden;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.description {
+	margin-top: 0px;
+}

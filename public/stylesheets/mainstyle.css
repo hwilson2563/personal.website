@@ -1,0 +1,49 @@
+.title {
+text-align: center;
+}
+#welcomeBackground {
+	margin: 0 auto;
+	width: 80%;
+	height: 475px;
+	margin-top: 50px;
+	background-image: url("https://media.giphy.com/media/vEiuhblutg6LS/giphy.gif");
+	opacity: 0.4;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#main {
+	font-family: "Poiret One";
+	font-size: 40px;
+	color: #F6F5F3;
+	margin-top: 180px;
+}
+#small {
+	font-family: "Homemade Apple";
+	color: #D5E1EF;
+	margin-top: -20px;
+}
+#welcomeMessage {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	top: 180px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.arrow {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	width: 100%;
+	background-color: #576886;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	z-index: 10;
+}
+#arrowIcon {
+	margin: 0;
+	padding-top: 5px;
+}
