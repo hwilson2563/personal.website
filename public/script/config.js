@@ -9,6 +9,9 @@
             .when("/about", {
             	template: "<about-component></about-component>"
             })
+             .when("/portfolio", {
+                template: "<port-component></port-component>"
+            })
             .otherwise({ redirectTo: "/" });
         });
 })();
