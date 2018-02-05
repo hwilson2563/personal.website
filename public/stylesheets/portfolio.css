@@ -4,7 +4,7 @@ h1 {
 	color: #F6F5F3;
 }
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container, .slideshow-container-1 {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -58,18 +58,18 @@ h1 {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dotOne{
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover, .dotOne:hover {
   background-color: #717171;
 }
 
@@ -79,6 +79,10 @@ h1 {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+.dots {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 @-webkit-keyframes fade {
